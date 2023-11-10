@@ -1,0 +1,5 @@
+admin, admin1@gmail.com, a12345, ashraful
+user, user1@gmail.com, u12345, anwar
+manager, manager1@gmail.com, m12345, susmita
+admin, sansa@gmail.com, As123456, sansa stark
+user, arya@gmail.com, As123456, arya
