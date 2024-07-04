@@ -2,14 +2,17 @@
 
 session_start();
 
+// Check if the user is logged in
 if ( !isset( $_SESSION["email"] ) ) {
     header( "Location: login.php" );
-} elseif ( $_SESSION["role"] == "user" ) {
+    exit;
+} elseif ( $_SESSION["role"] === "user" ) {
     header( "Location: user.php" );
-} elseif ( $_SESSION["role"] == "manager" ) {
+    exit;
+} elseif ( $_SESSION["role"] === "manager" ) {
     header( "Location: manager.php" );
-} elseif ( $_SESSION["role"] == "admin" ) {
+    exit;
+} elseif ( $_SESSION["role"] === "admin" ) {
     header( "Location: admin.php" );
+    exit;
 }
-
-?>

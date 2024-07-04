@@ -1,0 +1,4 @@
+admin, John Doe, admin@gmail.com, $2y$10$lo5EelgGNn5IIyUtZwrpQ.apsVonQLDcsSJANJEPVndGxmgUB4wbO
+manager, Jane Doe, manager@gmail.com, $2y$10$UtUq9Olzr9KCbP2CjeqbiuZ7ghwVZHK3ns3pbuJsB70gCZfwjWyoW
+user, Jimmy Doe, user@gmail.com, $2y$10$tN1exEjzgjacBlPMx2pS6ujuFnj0BpH1S5SRzERai.q3dGBSlLFCi
+admin, test user , test@gmail.com, $2y$10$1bEupolJUI/jPGGzbJv/puZji3zt24Shc/2XSR81fBw4rtTSPdC4a
